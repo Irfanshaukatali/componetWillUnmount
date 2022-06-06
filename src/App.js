@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Prop from "./Prop"
+import User from "./User"
 export default class App extends React.Component {
  constructor(){
    super();
@@ -19,7 +19,7 @@ export default class App extends React.Component {
         <h1>ComponentWillUnmount example</h1>
      {
        this.state.toggle?
-      <Prop/>
+      <User/>
      :
      null
      }
